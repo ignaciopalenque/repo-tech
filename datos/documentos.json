@@ -1,0 +1,1018 @@
+[
+  {
+    "id": "Análisis-Riesgos-En-La-Empresa",
+    "titulo": "Análisis de Riesgos de CiberSeguridad en la Empresa SaludTotal",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/analisis_de_riesgos_en_la_empresa_saludtotal.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Simulación de Análisis de Riesgos de Ciberseguridad en la empresa ficticia SaludTotal.",
+    "etiquetas": [
+      "Empresas",
+      "Riesgos",
+      "bastionado"
+    ],
+    "fecha": "2026-02-23"
+  },
+  {
+    "id": "Clientes-Moviles-Con-OpenVPN",
+    "titulo": "Configuración de Clientes Móviles con OpenVPN en un Entorno Seguro",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Configuracion_de_Clientes_Móviles_con_OpenVPN_en_un_Entorno_Seguro.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica se va a configurar un servidor OpenVPN y un cliente que se pueda conectar de forma segura a la red donde esta el servidor OpenVPN. Todo esto lo realizaremos por medio de dos contenedores Docker, uno que actuara como servidor OpenVPN y otro que desempeñara el rol decliente y se conectara a la red del servidor.",
+    "etiquetas": [
+      "Docker",
+      "OpenVPN",
+      "bastionado"
+    ], 
+    "fecha": "2025-11-23"
+  },
+
+    {
+    "id": "SSH-Autenticación-2FA",
+    "titulo": "Configurar SSH con y sin Autenticación de Dos Pasos (2FA) usando Google Authenticator mediante docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Configurar_SSH_con_y_sin_Autenticación_2FA_google_authenticator_en_docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica se va a configurar un contenedor de Docker basado en Ubuntu donde se crearán dos usuarios, uno llamado usuario2fa y otro usuariosin2fa, la idea es conectarnos al usuario “usuario2fa” utilizando el doble factor de autenticación (contraseña y código de verificación) por medio de google authenticator y aegis (para la gestión de tokens totp)",
+    "etiquetas": [
+      "Docker",
+      "SSH",
+      "bastionado",
+      "2FA"
+    ], 
+    "fecha": "2025-11-25"
+  },
+
+  {
+    "id": "introduccion-nmap",
+    "titulo": "Introducción a Nmap con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Mapeo_de_puertos_en_una_red_virtual_docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Apuntes básicos sobre descubrimiento de hosts y puertos.",
+    "etiquetas": [
+      "Nmap",
+      "reconocimiento",
+      "escaneo",
+      "bastionado",
+      "Docker",
+      "Hacking ético"
+    ],
+    "fecha": "2025-10-23"
+  },
+
+  {
+    "id": "AhMythRAT",
+    "titulo": "Despliegue de AhMythRAT en un Entorno Aislado con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Despliegue_de_AhMythRAT_en_un_Entorno_Aislado_con_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Vamos a controlar remotamente una máquina Android con la herramienta AhMyth instalada en un máquina virtual dentro de un contenedor de Docker",
+    "etiquetas": [
+      "AhMythRAT",
+      "Android",
+      "bastionado",
+      "Docker",
+      "Control Remoto",
+      "Hacking ético"
+    ],
+    "fecha": "2025-11-14"
+  },
+
+    {
+    "id": "Metasploit-Docker",
+    "titulo": "Implementación y Evaluación de un Vector de Infección con Docker y Metasploit",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Implementación_y_Evaluación_de_un_Vector_de_Infección_con_Docker_y_Metasploit.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Usando metasploit generaremos un payload que nos va a permitir que cuando en la máquina víctima se ejecute el payload esta se va a conectar a la máquina atacante por el puerto 4444. Un vez ya dentro de la máquina víctima podremos realizar multitud de acciones sin que la víctima se percate de ello",
+    "etiquetas": [
+      "Metasploit",
+      "bastionado",
+      "Docker",
+      "Control Remoto",
+      "Hacking ético"
+    ],
+    "fecha": "2025-11-13"
+  },
+
+  {
+    "id": "Keyloger-Docker",
+    "titulo": "Instalación de un Keylogger con docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Instala_un_Keylogger_en_un_entorno_aislado_con_docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Vamos a instalar un keylogger dentro de un contenedor de docker. Para ello vamos realizarlo todo desde una máquina virtual debian, donde tenemos docker y por mediación de docker compose y dockerfile crearemos el contenedor el cual contendra el keylogger.",
+    "etiquetas": [
+      "Keyloger",
+      "bastionado",
+      "Docker",
+      "Hacking ético"
+    ],
+    "fecha": "2025-10-31"
+  },
+
+  {
+    "id": "Phising-Docker",
+    "titulo": "Simulación de Phishing en un Entorno Aislado con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Simulación_de_Phishing_en_un_Entorno_Aislado_con_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Vamos a simular de forma segura un entorno virtual con docker la forma de realizar un ataque de phishing utilizando la herramienta Phisher",
+    "etiquetas": [
+      "Phising",
+      "Phiser",
+      "bastionado",
+      "Docker",
+      "Hacking ético"
+    ],
+    "fecha": "2025-11-05"
+  },
+
+   {
+    "id": "Esteganografia-Docker",
+    "titulo": "Esteganografía en Contenedores con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Esteganografía_en_Contenedores_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "La esteganografía trata el estudio y aplicación de técnicas que permiten ocultar mensajes u objetos, dentro de otros, llamados portadores, para que no se perciba su existencia.",
+    "etiquetas": [
+      "Esteganografia",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2025-11-30"
+  },
+
+   {
+    "id": "GNUPG-kleopatra-Docker",
+    "titulo": "GnuPG con Kleopatra en Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/GnuPG_con_Kleopatra_en_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "El objetivo de esta práctica es utilizar Kleopatra (interfaz gráfica de GnuPG) para realizar operaciones criptográficas en un entorno aislado, asegurando la correcta localización (idioma español) de la interfaz gráfica mediante configuración avanzada de Docker y KDE.",
+    "etiquetas": [
+      "GNUPG",
+      "bastionado",
+      "kleopatra",
+      "Docker"
+    ],
+    "fecha": "2025-12-06"
+  },
+
+  {
+    "id": "GNUPG-kleopatra-Avanzada-Docker",
+    "titulo": "Funciones avanzadas de GNUPG con Kleopatra",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Kleopatra_funciones_avanzadas_docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "El objetivo de esta práctica es utilizar Kleopatra (interfaz gráfica de GnuPG) y sus funciones avanzadas para realizar operaciones criptográficas en un entorno aislado, asegurando la correcta localización (idioma español) de la interfaz gráfica mediante configuración avanzada de Docker y KDE.",
+    "etiquetas": [
+      "GNUPG",
+      "bastionado",
+      "kleopatra",
+      "Docker"
+    ],
+    "fecha": "2025-12-07"
+  },
+
+   {
+    "id": "GPG-Docker",
+    "titulo": "Gestión de claves GPG y encriptación",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/GESTIÓN_DE_CLAVES_GPG_Y_ENCRIPTACIÓN.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Al igual que hemos ido haciendo en prácticas anteriores vamos a realizar tareas de creación y gestión de claves gpg y encriptación en linux pero desde la linea de comandos dentro de contenedores de Docker.",
+    "etiquetas": [
+      "GPG",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2025-12-12"
+  },
+
+  {
+    "id": "PKI-Docker",
+    "titulo": "Creación de una PKI en Linux con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Creación_de_una_PKI_en_Linux_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica desplegaremos una infraestructura de clave pública pki completa mediante contenedores de Docker. Por lo tanto, en un entorno aislado gestionaremos nuestra autoridad de certificación (CA) generando y firmando certificados e implementando una autoridad certificadora intermediaria para mayor seguridad, flexibilidad y escalabilidad de nuestra infraestructura de clave pública pki",
+    "etiquetas": [
+      "PKI",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2025-12-15"
+  },
+
+  {
+    "id": "Certificados-Web-Docker",
+    "titulo": "Uso de certificados en servicios web con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Uso_de_certificados_en_servicios_web_con_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica desplegaremos un servidor web con Apache seguro utilizando contenedores de Docker y gestionaremos certificados SSL propios firmados por la autoridad certificadora que hemos generado y configurado en la práctica anterior. Por último, vamos a desplegar una aplicación web para la venta de entradas de partidos de fútbol",
+    "etiquetas": [
+      "Certificados Web",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2025-12-16"
+  },
+
+  {
+    "id": "Servidor-Radius-Docker",
+    "titulo": "Instalación de un servidor Radius y Radiusdesk usando Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Instalación_de_un servidor_RADIUS_en_Linux_usando_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Radius es un protocolo de red que sirve para verificar quién puede acceder a una red, qué permisos tiene y registrar su actividad, mientras que, Radius Desktop es una aplicación que permite probar, administrar o autenticar usuarios contra un servidor RADIUS. En general se utiliza para validar configuraciones, realizar pruebas de acceso y gestionar credenciales sin necesidad de hacerlo directamente desde el equipo de red.",
+    "etiquetas": [
+      "Servidor Radius",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2026-01-12"
+  },
+
+  {
+    "id": "Cuentas-Privilegiadas-Linux-Docker",
+    "titulo": "Gestión de cuentas privilegiadas en Linux con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Gestión_de_cuentas_privilegiadas_en_Linux_con_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica se pretende poder implementar políticas de delegación por roles, utilizando alias en sudoers para que por ejemplo los usuarios normales puedan utilizar sudo para ejecutar ciertas tareas reduciendo el riesgo de trabajar permanentemente como root. Para ello a lo largo de esta práctica nos serviremos del comando visudo que es un comando que permite editar el archivo /etc/sudoers de manera segura y controlada. Ya que, el archivo /etc/sudoers define las reglas y permisos para el uso de sudo",
+    "etiquetas": [
+      "Privilegios",
+      "Linux",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2026-01-14"
+  },
+
+  {
+    "id": "Authentik-Docker",
+    "titulo": "Instalación de Authentik SSO con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Instalación_de_Authentik_SSO_con_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica instalaremos y configuraremos authentik mediante docker para poder gestionar la autenticación y el acceso en otras aplicaciones, en este caso portainer.",
+    "etiquetas": [
+      "Authentik",
+      "bastionado",
+      "Docker"
+    ],
+    "fecha": "2026-01-20"
+  },
+
+  {
+    "id": "PFSense-VLAN",
+    "titulo": "Implementación de redes VLAN con PFSense",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/VLANs_en_PFSense.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Ejercicio de simulación donde recientemente se nos ha contratado en una empresa como administradores de redes. La labor que nos han encomendado es optimizar lo máximo posible y securizar la red informática de toda la empresa, pero manteniendo en la medida de lo posible el direccionamiento usado.",
+    "etiquetas": [
+      "PFSense",
+      "VLAN",
+      "bastionado"
+      
+    ],
+    "fecha": "2026-02-17"
+  },
+
+  {
+    "id": "PFSense-IPSec",
+    "titulo": "Despliegue de VPN Site-to-Site con Servicios Distribuidos IPSec desde PFSense",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Despliegue_de_VPN_Site-to-Site_con_Servicios_Distribuidos_IPSec.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de esta práctica se pretende establecer un túnel VPN con IPSec entre dos máquinas que en un caso práctico real van a estar ubicadas en redes distintas y probablemente en ubicaciones geográficas también distintas. Una vez el túnel este establecido y aplicadas las reglas necesarias en el cortafuegos, debemos de ser capaces de acceder a ciertos servicios desde una red a la otra, como por ejemplo un servidor web. Todo este proceso lo vamos a realizar en Pfsense",
+    "etiquetas": [
+      "PFSense",
+      "IPSec",
+      "bastionado"
+    ],
+    "fecha": "2026-03-13"
+  },
+
+  {
+    "id": "PFSense-listas-ACL",
+    "titulo": "Configuración de listas de control de acceso (ACL) en pfSense para filtrar tráfico",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Configuración_de_listas_de_control_de_acceso(ACL)_en_pfSense_para_filtrar_tráfico_desde_Windows_10.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de esta práctica se pretende establecer una serie de reglas de tráfico en el cortafuegos de pfsense para un cliente Windows 10 conectado a una red interna. El objetivo final de dicha practica será bloquear todo el tráfico web e ICMP de dicho cliente a excepción de dos sitios web, en este caso los periódicos el país (https://elpais.com/) y el the new york times (https://www.nytimes.com/)",
+    "etiquetas": [
+      "PFSense",
+      "ACL",
+      "bastionado"
+    ],
+    "fecha": "2026-03-14"
+  },
+
+  {
+    "id": "PFSense-Portal-Cautivo",
+    "titulo": "Configuración de PFsense como Punto de Acceso WiFi con Portal Cautivo",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Configuración_de_PFsense_como_Punto_de_Acceso_WiFi_con_Portal_Cautivo.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de esta práctica se pretende implementar un portal cautivo en pfsense. Para ello hay que saber que la función principal de los portales cautivos es reforzar la seguridad de la red, ya que al solicitar una autenticación se tiene un mejor control sobre quien accede. Esto es muy importante hoy en día ya que los cibercriminales prefieren atacar entornos masivos como las redes públicas. La idea inicial es que partiendo de una interfaz wlan podamos crear un punto de acceso con portal cautivo, pero surgen varios inconvenientes que iremos viendo con el transcurso de esta práctica. No obstante, finalmente desplegaremos el portal cautivo con una página de logueo personalizada y veremos algunas de las opciones disponibles de este.",
+    "etiquetas": [
+      "PFSense",
+      "Portal Cautivo",
+      "bastionado"
+    ],
+    "fecha": "2026-03-25"
+  },
+
+  {
+    "id": "PFSense-DNSBL-GeoIP",
+    "titulo": "Implementación de Filtrado Dinámico Avanzado(GeoIP y DNSBL) con pfBlockerNG",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Implementación_de_Filtrado_Dinámico_Avanzado_GeoIP_DNSBL_PFSense.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Las listas de direcciones IP estáticas han dejado de ser eficientes por sí solas debido a la rapidez con la que cambian las infraestructuras de ataque (CDNs, IP flotantes). La solución actual pasa por dos pilares: el bloqueo por Geolocalización (GeoIP) para tráfico entrante y el uso de Listas de Bloqueo DNS (DNSBL) agregadas y actualizadas para tráfico saliente (Ads/Malware).",
+    "etiquetas": [
+      "PFSense",
+      "DNSBL",
+      "GeoIP",
+      "bastionado"
+    
+    ],
+    "fecha": "2026-03-28"
+  },
+
+  {
+    "id": "PFSense-IDS-IPS",
+    "titulo": "Implementar IDS/IPS en pfSense",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Implementar_IDS_en_pfSense.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "El objetivo con la realización de esta práctica sera el de implementar un sistema de detección y prevención de amenazas en Pfsense, utilizando para ello Suricata como motor de análisis del tráfico, activando la combinación de un conjunto de reglas seguridad (la reglas ETOpen y las reglas de Snort) que nos permitirán la interpretación de alertas y la respuesta a las amenazas detectadas.",
+    "etiquetas": [
+      "PFSense",
+      "IDS",
+      "IPS",
+      "Snort",
+      "ETopen",
+      "bastionado"
+    
+    ],
+    "fecha": "2026-04-12"
+  },
+
+  {
+    "id": "PFSense-Proxy-Squid",
+    "titulo": "Implementar proxy en firewall pfsense",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Proxy_Squid_Firewall_PFSense.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de esta práctica instalaremos y configuraremos Squid Proxy en Pfsense con la intención de hacer de “intermediario” entre los clientes y las páginas web a la hora de navegar, es decir, el cliente hará una petición de consulta a un sitio web y el Proxy será el encargado de cachear dicho sitio web en el almacenamiento establecido para ello y servirlo al cliente, consiguiendo de esta manera agilizar el acceso a sitios web recurrentes para todos los clientes de la red. Además en todo momento podremos interceptar y monitorizar el tráfico web de todos los clientes de la red.",
+    "etiquetas": [
+      "PFSense",
+      "Proxy",
+      "Squid",
+      "bastionado"
+    
+    ],
+    "fecha": "2026-04-13"
+  },
+
+  {
+    "id": "WAF-Apache",
+    "titulo": "Solución WAF para Apache",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Solucion_WAF_para_Apache.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de la tarea implementaremos y configuraremos ModSecurity que es el Firewall para aplicaciones web (WAF) mas popular y que viene integrado en el servidor de Apache. Esto lo haremos principalmente con el objetivo de proteger las aplicaciones web analizando el tráfico HTTP",
+    "etiquetas": [
+      "WAF",
+      "Apache",
+      "ModSecurity",
+      "Ubuntu Server"
+    
+    ],
+    "fecha": "2026-04-17"
+  },
+
+  {
+    "id": "SIEM-Wazuh-Docker",
+    "titulo": "Uso de un SIEM : Wazuh con Docker",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Uso_de_un_SIEM_Wazuh_con_Docker.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de esta práctica vamos a instalar y configurar Wazuh en Docker. Wazuh es una plataforma SIEM/XDR, es decir, una plataforma que centraliza, correlaciona y analiza eventos de seguridad procedentes de múltiples fuentes permitiendo así detectar amenazas. En definitiva Wazuh combina capacidades de detección de intrusiones, análisis de logs, monitorización de integridad de ficheros y respuesta activa ante incidentes.",
+    "etiquetas": [
+      "SIEM",
+      "Wazuh",
+      "Docker"
+    
+    ],
+    "fecha": "2026-05-09"
+  },
+
+  {
+    "id": "Honeypot-Crowrie",
+    "titulo": "Instalación y Análisis de un Honeypot SSH",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Instalación_y_Análisis_de_un_Honeypot_SSH.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "En esta práctica se va a montar un HoneyPot (Sistema trampa fácil de atacar que vamos a desplegar con el fin de registrar lo que hacen los atacantes. Muy útil para determinar los objetivos y las técnicas empleadas en el ataque) usando Cowrie, que simula accesos por SSH/Telnet, y lo montaremos utilizando Docker",
+    "etiquetas": [
+      "Honeypot",
+      "Crowrie",
+      "Docker"
+    
+    ],
+    "fecha": "2026-05-13"
+  },
+
+  {
+    "id": "Fail2ban",
+    "titulo": "Sistema Anti-DDoS(fail2ban) a Nivel de Firewall y Servidor",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Anti-DDoS_Ubuntu2204_Server.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "El objetivo de esta práctica es instalar la herramienta fail2ban en una máquina Ubuntu Server 22.04 para proteger tanto el servidor ssh como el servidor web apache con la intención de evitar ataques de fuerza bruta DDOS",
+    "etiquetas": [
+      "Fail2ban",
+      "DDoS",
+      "Ubuntu Server"
+    
+    ],
+    "fecha": "2026-04-25"
+  },
+
+  {
+    "id": "Encriptación-Luks",
+    "titulo": "Encriptacion de particiones con LUKS",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Encriptacion_LUKS.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "El objetivo de esta práctica es aprender a cifrar una particion de disco en Linux usando LUKS (Linux Unified Key Setup) y a configurar el sistema para que la monte automáticamente en el arranque.",
+    "etiquetas": [
+      "LUKS",
+      "Cifrado",
+      "Linux"
+    
+    ],
+    "fecha": "2026-05-19"
+  },
+
+  {
+    "id": "Hardening-Apache",
+    "titulo": "Hardening de servidor web Apache",
+    "archivo": "documentos/Bastionado_De_Redes_Y_Sistemas/Hardening_Servidor_Web_Apache.pdf",
+    "categoriaId": "bastionado-sistemas-redes",
+    "categoria": "Bastionado de Sistemas y Redes",
+    "descripcion": "Con la realización de esta práctica se pretende reducir la superficie de ataque en nuestro servidor Apache 2.4 sobre Ubuntu Server 22.04 aplicando para ello una serie de configuraciones de seguridad por capas que van desde la ocultación de información del servidor hasta la implementación de cabeceras de seguridad HTTP y protección activa con módulos como ModSecurity",
+    "etiquetas": [
+      "Hardening",
+      "Apache",
+      "ModSecurity"
+    
+    ],
+    "fecha": "2026-05-23"
+  },
+
+
+    {
+    "id": "Enumeracion-NMAP",
+    "titulo": "Enumeración de redes y sistemas con Nmap",
+    "archivo": "documentos/Hacking_Etico/Enumeracion_con_NMAP.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica orientada al aprendizaje de técnicas de enumeración de redes, puertos, servicios y sistemas utilizando Nmap dentro de un entorno controlado de hacking ético.",
+    "etiquetas": [
+      "Nmap",
+      "Enumeración",
+      "Reconocimiento"
+    ],
+    "fecha": "2025-12-16"
+  },
+  {
+    "id": "Explotacion-Ataque-Man-in-the-Middle",
+    "titulo": "Explotación mediante un ataque Man-in-the-Middle",
+    "archivo": "documentos/Hacking_Etico/Explotacion_attack_man_in_the_middle.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica sobre la simulación y el análisis de ataques Man-in-the-Middle en un entorno controlado, estudiando la interceptación y manipulación de las comunicaciones entre dos sistemas.",
+    "etiquetas": [
+      "Man-in-the-Middle",
+      "MITM",
+      "Interceptación"
+    ],
+    "fecha": "2026-01-29"
+  },
+  {
+    "id": "Explotacion-Password-Guessing",
+    "titulo": "Explotación mediante técnicas de password guessing",
+    "archivo": "documentos/Hacking_Etico/Explotacion_password_guessing.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica centrada en el estudio de técnicas de adivinación y ataques de fuerza bruta contra contraseñas en un entorno aislado, así como en la identificación de medidas de protección frente a este tipo de amenazas.",
+    "etiquetas": [
+      "Password Guessing",
+      "Fuerza Bruta",
+      "Contraseñas"
+    ],
+    "fecha": "2026-01-13"
+  },
+  {
+    "id": "Explotacion-Servidor-Web",
+    "titulo": "Explotación de vulnerabilidades en un servidor web",
+    "archivo": "documentos/Hacking_Etico/Explotacion_Servidor_Web.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica dedicada a la identificación y explotación controlada de vulnerabilidades en un servidor web, analizando los riesgos asociados y las medidas necesarias para mejorar su seguridad.",
+    "etiquetas": [
+      "Servidor Web",
+      "Explotación",
+      "Vulnerabilidades"
+    ],
+    "fecha": "2026-02-05"
+  },
+  {
+    "id": "Explotacion-Sniffer-Tcpdump",
+    "titulo": "Análisis de tráfico de red con tcpdump",
+    "archivo": "documentos/Hacking_Etico/Explotacion_Sniffer_tcpdump.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica orientada a la captura y el análisis de tráfico de red mediante tcpdump, con el objetivo de comprender el funcionamiento de las comunicaciones y detectar posibles datos sensibles o comportamientos anómalos.",
+    "etiquetas": [
+      "Tcpdump",
+      "Sniffing",
+      "Análisis de Tráfico",
+      "Hacking ético"
+
+    ],
+    "fecha": "2026-01-21"
+  },
+  {
+    "id": "Monitorizacion-Nessus",
+    "titulo": "Detección de vulnerabilidades con Nessus",
+    "archivo": "documentos/Hacking_Etico/Herramientas_de_monitorizacion_para_detectar_vulnerabilidades_nessus.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica sobre el uso de Nessus para realizar análisis automatizados de vulnerabilidades, evaluar la seguridad de sistemas y generar informes con recomendaciones de mitigación.",
+    "etiquetas": [
+      "Nessus",
+      "Vulnerabilidades",
+      "Auditoría",
+      "Hacking ético"
+
+    ],
+    "fecha": "2025-10-31"
+  },
+  {
+    "id": "Herramientas-Legion-Nikto",
+    "titulo": "Auditoría de seguridad con Legion y Nikto",
+    "archivo": "documentos/Hacking_Etico/Herramientas_Legion_Nikto.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica dedicada al uso de las herramientas Legion y Nikto para realizar tareas de reconocimiento, análisis de servicios y detección de vulnerabilidades en aplicaciones y servidores web.",
+    "etiquetas": [
+      "Legion",
+      "Nikto",
+      "Auditoría",
+      "Análisis de Vulnerabilidades",
+      "Hacking ético"
+
+    ],
+    "fecha": "2025-11-12"
+  },
+  {
+    "id": "Herramientas-Monitorizacion",
+    "titulo": "Herramientas de monitorización y análisis de seguridad",
+    "archivo": "documentos/Hacking_Etico/Herramientas_Monitorizacion.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Práctica centrada en el conocimiento y uso de distintas herramientas de monitorización para supervisar sistemas, analizar eventos y detectar posibles vulnerabilidades o actividades sospechosas.",
+    "etiquetas": [
+      "Monitorización",
+      "Seguridad",
+      "Análisis"
+    ],
+    "fecha": "2025-10-21"
+  },
+
+  {
+    "id": "Escalada-Privilegios-Servidor-Web",
+    "titulo": "Escalada de privilegios en el Servidor Web",
+    "archivo": "documentos/Hacking_Etico/Escalada_de_Privilegios_En_El_Servidor_Web.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Con la realización de esta práctica se pretende realizar una escalada de privilegios una vez que ya estamos dentro de la máquina víctima (post explotación del exploit) para ello vamos a utilizar algunos comandos y herramientas incluidos en meterpreter.",
+    "etiquetas": [
+      "Escalada de Privilegios",
+      "Metasploit",
+      "Meterpreter",
+      "Post Explotación",
+      "Hacking ético"
+    ],
+    "fecha": "2026-02-12"
+  },
+
+  {
+    "id": "Pivoting-Metasploit",
+    "titulo": "Pivoting entre redes utilizando Metasploit",
+    "archivo": "documentos/Hacking_Etico/Post_Explotacion_Pivoting_Route.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Con la realización de esta práctica se pretende tomar el control de una máquina víctima (Windows 7) que se encuentra en otra red distinta a la red de la máquina atacante (Kali linux). Esto lo haremos por medio de un payload que generaremos el cual nos permitirá tener el control de una máquina intermedia  (Ubuntu 24.04) con la que haremos pivoting entre redes, es decir, una máquina que tendrá dos tarjetas de red, una en la red donde se encuentra el atacante y otra en la red donde se encuentra la máquina víctima",
+    "etiquetas": [
+      "Pivoting",
+      "Metasploit",
+      "Meterpreter",
+      "Post Explotación",
+      "Hacking ético"
+    ],
+    "fecha": "2026-02-26"
+  },
+
+  {
+    "id": "Pivoting-PortForWarding-Metasploit",
+    "titulo": "Pivoting entre redes o movimiento lateral utilizando Metasploit (Port Forwarding)",
+    "archivo": "documentos/Hacking_Etico/Pivoting_Port_Forwarding.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Siguiendo con la temática del pivoting, es decir, pivotar entre equipos de distintas redes y poder encontrar mas equipos con posibles vulnerabilidades a explotar, con la realización de esta práctica se pretende realizar un reenvío de puertos (port forwarding) donde vamos a canalizar todo el tráfico entre dos maquinas (máquinas Metasploitable y Kali linux) que en un principio no tienen conectividad, pues están en distintas redes. Para ello, al igual que en la anterior practica, nos serviremos de una máquina “intermedia” (Ubuntu) desde donde redirigiremos todo el tráfico proveniente desde una ip y un puerto en concreto.",
+    "etiquetas": [
+      "Pivoting",
+      "Metasploit",
+      "Meterpreter",
+      "Post Explotación",
+      "Port Forwarding",
+      "Hacking ético"
+    ],
+    "fecha": "2026-03-05"
+  },
+
+  {
+    "id": "Backdoors",
+    "titulo": "Creación de una puerta trasera(Backdoor)",
+    "archivo": "documentos/Hacking_Etico/Creacion_puertas_traseras_o_backdoors.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Con la realización de esta práctica se pretende tener acceso a una máquina remota desde una máquina atacante sin la necesidad de explotar ninguna vulnerabilidad mediante el uso de puertas traseras generadas por nuestros propios troyanos, ya sea o bien incluyendo estos en algún programa ejecutable o en alguna macro para office",
+    "etiquetas": [
+      "Backdoors",
+      "Metasploit",
+      "Meterpreter",
+      "Hacking ético"
+    ],
+    "fecha": "2026-03-17"
+  },
+
+  {
+    "id": "Acceso-A-Sistemas-Web",
+    "titulo": "Acceso a sistemas web enumeración",
+    "archivo": "documentos/Hacking_Etico/Acceso_a_sistemas_web_enumeracion_web.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Con la realización de esta práctica vamos a escanear sitios web con la intención de enumerar y descubrir directorios y archivos de estos, utilizando para ello distintas herramientas como dirb, nikto, telnet etc",
+    "etiquetas": [
+      "Dirb",
+      "Telnet",
+      "Nikto",
+      "Enumeración sistemas web"
+    ],
+    "fecha": "2026-04-09"
+  },
+ 
+  {
+    "id": "Acceso-A-Sistemas-Web-Vulnerabilidades",
+    "titulo": "Acceso a sistemas web vulnerabilidades",
+    "archivo": "documentos/Hacking_Etico/Acceso_a_sistemas_web_vulnerabilidades_web.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Con la realización de esta práctica, la idea es realizar una búsqueda y una explotación de vulnerabilidades del sitio web de la máquina metasploitable sirviéndonos para ello de herramientas software como pueden ser mfsvenom, burpsuite, nc…",
+    "etiquetas": [
+      "Mfsvenom",
+      "nc",
+      "Burpsuite",
+      "Zaproxy",
+      "XSS",
+      "DVWA",
+      "Backdoors",
+      "Vulnerabilidades sistemas web"
+    ],
+    "fecha": "2026-04-28"
+  },
+
+  {
+    "id": "Acceso-A-Sistemas-Web-Inyecciones-Mutillidae",
+    "titulo": "Acceso a sistemas web inyecciones en mutillidae",
+    "archivo": "documentos/Hacking_Etico/Acceso_a_sistemas_web_inyeccion_en_mutillidae.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "Con la realización de esta práctica principalmente se pretende utilizar técnicas de inyección de código principalmente SQL para obtener los datos de las tablas del sitio web mutillidae",
+    "etiquetas": [
+      "Mutillidae",
+      "SQL Inyection",
+      "SQLMap",
+      "Owasp",
+      "Backdoors",
+      "Vulnerabilidades sistemas web"
+    ],
+    "fecha": "2026-05-05"
+  },
+
+  {
+    "id": "OWASP-JuiceShop",
+    "titulo": "OWASP JuiceShop",
+    "archivo": "documentos/Hacking_Etico/Acceso_a_sistemas_web_entrenamiento_juiceshop.pdf",
+    "categoriaId": "hacking-etico",
+    "categoria": "Hacking Ético",
+    "descripcion": "OWASP Juice Shop es una aplicación web insegura que vamos a utilizar a modo de “entrenamiento” donde iremos resolviendo una serie de retos explotando para ello las vulnerabilidades subyacentes",
+    "etiquetas": [
+      "Owasp",
+      "Juice Shop",
+      "Burpsuite",
+      "XSS",
+      "SQL Inyection",
+      "Vulnerabilidades sistemas web"
+    ],
+    "fecha": "2026-05-19"
+  },
+
+   {
+    "id": "Prueba-Aplicaciones-Web-Moviles",
+    "titulo": "Introducción lenguajes de programación: Python, entornos de pruebas y tipos de vulnerabilidades",
+    "archivo": "documentos/Puesta_En_Produccion_Segura/Prueba_De_Aplicaciones_Web_Y_Moviles.pdf",
+    "categoriaId": "puesta-en-produccion-segura",
+    "categoria": "Puesta en Producción Segura",
+    "descripcion": "Este documento contiene una breve introducción a las bases de programación del lenguaje Python. Además de conceptos como pruebas o test, Sandboxes y tipos de vulnerabilidades CVE ",
+    "etiquetas": [
+      "Python",
+      "CVES",
+      "Programación",
+      "Sandboxes"
+ 
+    ],
+    "fecha": "2025-10-01"
+  },
+
+  {
+    "id": "Prueba-Aplicaciones-Web-Moviles",
+    "titulo": "Introducción lenguajes de programación: Python Resumen",
+    "archivo": "documentos/Puesta_En_Produccion_Segura/Resumen_Programacion_Python.pdf",
+    "categoriaId": "puesta-en-produccion-segura",
+    "categoria": "Puesta en Producción Segura",
+    "descripcion": "Este documento contiene un resumen introducción a las bases de programación del lenguaje Python.",
+    "etiquetas": [
+      "Python",
+      "Programación"
+ 
+    ],
+    "fecha": "2025-11-25"
+  },
+
+  {
+    "id": "Laboratorio-Forense-Windows",
+    "titulo": "Creando un laboratorio forense en Windows",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Creando_Un_Laboratorio_Forense_En_Windows.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento contiene los pasos básicos para crear un pequeño laboratorio forense en una máquina Windows.",
+    "etiquetas": [
+      "Análisis Forense",
+      "Windows",
+      "FTK Imager"
+ 
+    ],
+    "fecha": "2025-11-11"
+  },
+
+  {
+    "id": "Clasificacion-delitos-taxonomia-INCIBE",
+    "titulo": "Aspectos legales. Clasificación delitos. Taxonomía.",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Aspectos_legales_Clasificación_delitos_Taxonomía.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento contiene una serie de ejemplos de delitos cibernéticos y su clasificación o taxonomía según INCIBE.",
+    "etiquetas": [
+      "Análisis Forense",
+      "INCIBE",
+      "Taxonomía"
+ 
+    ],
+    "fecha": "2025-10-23"
+  },
+
+  {
+    "id": "SANS-Aplicaciones-De-Terceros-Windows",
+    "titulo": "Windows aplicaciones forenses de terceros.",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/SANS_es_fix_windows_aplicaciones_de_terceros_forense_poster.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento contiene un poster de SANS el cual nos ofrece una guía de referencia para la exploración detallada de los artefactos de 46 aplicaciones de terceros que se encuentran comunmente en dispositivos que tiene instalado el sistema operativo Windows ",
+    "etiquetas": [
+      "Análisis Forense",
+      "SANS",
+      "Artefactos",
+      "Windows"
+ 
+    ],
+    "fecha": "2025-10-13"
+  },
+
+  {
+    "id": "Adquisicion-Forense-LIVE-Windows",
+    "titulo": "Adquisición live E/S en Windows.",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Tarea_adquisición_LIVE_actividad_E-S_en_Windows.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Se pretende realizar una adquisición que sirva de probatoria de que cierto usuario ha accedido a cierta información y descarga de documentos en la red, además de instalar cierto software y acceder a ciertos archivos. Para ello vamos a utilizar herramientas de consulta de procesos de actividad del sistema (FileActivityWatch), de acceso archivos(FileAccessView), de logs (FullEventLogView)y de dumpeo de memoria RAM en vivo(FTK imager)",
+    "etiquetas": [
+      "Análisis Forense",
+      "Adquisición",
+      "Artefactos",
+      "Windows"
+ 
+    ],
+    "fecha": "2025-11-17"
+  },
+
+  {
+    "id": "Adquisicion-Forense-Redes",
+    "titulo": "Práctica captura redes forense Linux",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Captura_Redes_Forense_Linux.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "En esta práctica capturaremos y analizaremos con wireshark el tráfico de red entre varias máquina en una misma red virtual",
+    "etiquetas": [
+      "Análisis Forense",
+      "Adquisición",
+      "Artefactos",
+      "Wireshark",
+      "Redes",
+      "Nmap"
+ 
+    ],
+    "fecha": "2026-01-12"
+  },
+
+    {
+    "id": "Montaje-Imagenes-Forense-Linux",
+    "titulo": "Documento sobre el montaje de imagenes forense Linux",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Montaje_de_imagenes_en_Linux.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento habla acerca del montaje de imágenes en Linux para analizar evidencias",
+    "etiquetas": [
+      "Análisis Forense",
+      "Adquisición",
+      "Linux",
+      "Montaje de Imágenes"
+ 
+    ],
+    "fecha": "2026-03-02"
+  },
+
+  {
+    "id": "Analisis-Logs-Forense-Linux",
+    "titulo": "Documento sobre el analisis forense de logs en Linux",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Analisis_de_LOGS.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento habla acerca del análisis forense de Logs en Linux",
+    "etiquetas": [
+      "Análisis Forense",
+      "Logs",
+      "Linux" 
+    ],
+    "fecha": "2026-03-02"
+  },
+
+  {
+    "id": "Analisis-Tráfico-Wireshark-Forense-Linux",
+    "titulo": "Documento sobre el analisis forense de tráfico red con Wireshark",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/cert_inf_seguridad_analisis_trafico_wireshark.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento habla acerca del análisis del tráfico de red con Wireshark",
+    "etiquetas": [
+      "Análisis Forense",
+      "Redes",
+      "Wireshark"
+    
+    ],
+    "fecha": "2026-03-02"
+  },
+
+   {
+    "id": "Analisis-Mac-IOS-Forense",
+    "titulo": "SANS análisis forense y respuesta de incidentes en MacOS e IOS",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/SANS_DFPS_macOS_iOS_FOR518_0823.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Este documento es un poster de SANS que contiene información acerca de directorios en MacOS e IOS donde poder obtener artefactos forense a la hora de analizar o dar respuesta a un incidente de ciberseguridad en estos entornos.",
+    "etiquetas": [
+      "Análisis Forense",
+      "SANS",
+      "MacOS",
+      "IOS"
+    
+    ],
+    "fecha": "2026-03-02"
+  },
+
+  {
+    "id": "Android-Virtual-Analisis-Forense",
+    "titulo": "Máquina Virtual simulador de Android",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Simulador_Android_x86.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Descargaremos ANDROID_x86. iso o LineageOS.iso (antiguo CianogenMod ) para instalar en una Maquina Virtual. (buscar en internet) (2GB RAM y 10GB DISCO DURO)",
+    "etiquetas": [
+      "Análisis Forense",
+      "Android",
+      "Sistemas",
+      "Virtual Box"
+    
+    ],
+    "fecha": "2026-02-02"
+  },
+
+    
+  {
+    "id": "RaspberryPi-Virtual-Box",
+    "titulo": "Simulando una RasberryPi en una máquina virtual en Virtual Box",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/Simular_Raspberry_Pi_sobre_maquina_virtual_en_VirtualBox.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "En este documento se muestra de forma básica como virtualizar Raspbian para simular una Raspberry Pi en Virtual Box",
+    "etiquetas": [
+      "Análisis Forense",
+      "Raspbian",
+      "Sistemas",
+      "Virtual Box"
+    
+    ],
+    "fecha": "2026-05-12"
+  },
+
+  {
+    "id": "RaspberryPi-Virtual-Box",
+    "titulo": "Adquisición de disco de RasberryPi con dd via nc y posterior análisis autopsy",
+    "archivo": "documentos/Analisis_Forense_De_Sistemas_Informaticos/ADQUISICION_DISCO_SSH_NC_DD_RASPBIAN.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Análisis Forense de Sistemas Informáticos",
+    "descripcion": "Tenemos una máquina RasberryPi con Raspbian x86 basado en debian 11 de 32 bits y dirección ip 192.168.100.60/24 de la que vamos a realizar una adquisición de disco con la herramienta dd via nc a una máquina Kali linux laboratorio con dirección ip 192.168.100.48/24",
+    "etiquetas": [
+      "Análisis Forense",
+      "Raspbian",
+      "Sistemas",
+      "Virtual Box",
+      "Autopsy",
+      "Kali Linux"
+    
+    ],
+    "fecha": "2026-05-12"
+  },
+
+    {
+    "id": "Desarrollo-Aplicaciones-Web-Entorno-Servidor-PHP-Laravel",
+    "titulo": "INSTALACIÓN Y PREPARACIÓN UBUNTU SERVER PARA TRABAJAR CON LARAVEL",
+    "archivo": "documentos/Desarrollo_Web_En_Entorno_Servidor/Preparación_e_Instalación_Laravel_Ubuntu_Server.pdf",
+    "categoriaId": "analisis-forense-de-sistemas-informaticos",
+    "categoria": "Desarrollo Web En Entornos Servidor",
+    "descripcion": "Breve guia para instalar/actualizar PHP y Laravel en una máquina Ubuntu Server. Esta guía puede estar obsoleta y requerir de cierta revisión y actualización",
+    "etiquetas": [
+      "Programación",
+      "PHP",
+      "Laravel",
+      "Ubuntu Server"
+
+    
+    ],
+    "fecha": "2026-05-12"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+]
