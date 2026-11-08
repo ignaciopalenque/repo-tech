@@ -246,7 +246,7 @@ function crearFilaDocumento(documento) {
 
         <a
           class="boton boton-secundario"
-          href="${encodeURI(documento.archivo)}"
+          href="${new URL(documento.archivo, window.location.href).href}"
           target="_blank"
           rel="noopener"
         >
@@ -255,7 +255,7 @@ function crearFilaDocumento(documento) {
 
         <a
           class="boton boton-secundario"
-          href="${encodeURI(documento.archivo)}"
+          href="${new URL(documento.archivo, window.location.href).href}"
           download
         >
           Descargar
@@ -305,7 +305,7 @@ function obtenerFavoritos() {
 
 function abrirModal(documento) {
   elementos.tituloPDF.textContent = documento.titulo;
-  elementos.visorPDF.src = documento.archivo;
+  elementos.visorPDF.src = window.location.href+documento.archivo;
   elementos.modalPDF.classList.remove("oculto");
   document.body.classList.add("sin-scroll");
 }
